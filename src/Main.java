@@ -1,9 +1,10 @@
-import operadores_relacionais_java_desafio_pratico11_alura.OperadoresRelacionais;
+//import operadores_relacionais_java_desafio_pratico11_alura.OperadoresRelacionais;
 import perfiljavadesafiopratico11_alura.Perfil;
-import estudos_java_desafio_pratico11_alura.Estudos;
+/* import estudos_java_desafio_pratico11_alura.Estudos;
 import operacoes_java_desafio_pratico11_alura.Operacoes;
 import operadores_logicos_java_desafio_pratico11_alura.OperadoresLogicos;
 import operadores_de_incremento_java_desafio_pratico11_alura.OperadoresIncremento;
+import movies_description_java_pratica_alura.Movies;*/
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class Main {
         Perfil saudacao = new Perfil();
         saudacao.saudacaoPerfil();
 
-        // classe estudos
+        /* classe estudos
         //Estudos estudos = new Estudos();
         //estudos.anotacoesEstudos();
         //System.out.println("------------------------------------------------------------");
@@ -33,8 +34,11 @@ public class Main {
         //OperadoresLogicos.operadorOr();
 
         // operadores de incremento
-        //OperadoresIncremento.preIncremento();
-        //OperadoresIncremento.posIncremento();
+        OperadoresIncremento.preIncremento();
+        OperadoresIncremento.posIncremento();
+
+        // movie desc:
+        Movies.movieDescription();*/
 
 
     }
