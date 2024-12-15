@@ -2,6 +2,7 @@ package movies_description_java_pratica_alura;
 
 public class Movies {
     public static void movieDescription(){
+        System.out.println("------------------------------------------------");
         System.out.println("Movie Description");
         System.out.println("Movie: Top Gun: Maverick");
 
@@ -12,6 +13,7 @@ public class Movies {
 
         double averageRating = (9.8 + 6.3 + 8.0) / 3;
         System.out.println("averageRating: " + averageRating);
+        System.out.println("------------------------------------------------");
 
         String sinopse;
         sinopse = """
@@ -21,5 +23,7 @@ public class Movies {
                 Realesed Year:
                 """+ realesedYear;
         System.out.println(sinopse);
+        int classification = (int) (movieRating/ 2);
+        System.out.println(classification);
     }
 }

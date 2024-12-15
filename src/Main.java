@@ -6,6 +6,7 @@ import operacoes_java_desafio_pratico11_alura.Operacoes;
 import operadores_logicos_java_desafio_pratico11_alura.OperadoresLogicos;
 import operadores_de_incremento_java_desafio_pratico11_alura.OperadoresIncremento;
 import movies_description_java_pratica_alura.Movies;*/
+import desafio_conversao_temperaturas_java_alura.ConversaoDeTemperaturas;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,10 +40,13 @@ public class Main {
         OperadoresIncremento.posIncremento();
 
         // movie desc:
-        Movies.movieDescription();*/
+        Movies.movieDescription();
 
         // concatenção strings
         ConcatenacaoExemplos.testandoString();
-        ConcatenacaoExemplos.comparandoString();
+        ConcatenacaoExemplos.comparandoString();*/
+
+        //conversao de temperatura
+        ConversaoDeTemperaturas.celsiusToFahrenheit();
     }
 }
