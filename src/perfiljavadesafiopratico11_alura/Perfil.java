@@ -1,4 +1,4 @@
-package perfilJavaDesafioPratico11_Alura;
+package perfiljavadesafiopratico11_alura;
 
 public class Perfil {
     public void saudacaoPerfil() {

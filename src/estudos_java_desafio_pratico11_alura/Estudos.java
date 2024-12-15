@@ -1,4 +1,4 @@
-package estudosJavaDesafioPratico11_Alura;
+package estudos_java_desafio_pratico11_alura;
 public class Estudos {
     public void anotacoesEstudos() {
         System.out.println("Aqui seria o local para salvar as anotações");
