@@ -1,5 +1,6 @@
 //import operadores_relacionais_java_desafio_pratico11_alura.OperadoresRelacionais;
 import perfiljavadesafiopratico11_alura.Perfil;
+import concatenacao_strings_java_pratica_alura.ConcatenacaoExemplos;
 /* import estudos_java_desafio_pratico11_alura.Estudos;
 import operacoes_java_desafio_pratico11_alura.Operacoes;
 import operadores_logicos_java_desafio_pratico11_alura.OperadoresLogicos;
@@ -40,6 +41,8 @@ public class Main {
         // movie desc:
         Movies.movieDescription();*/
 
-
+        // concatenção strings
+        ConcatenacaoExemplos.testandoString();
+        ConcatenacaoExemplos.comparandoString();
     }
 }
